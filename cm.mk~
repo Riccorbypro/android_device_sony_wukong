@@ -23,7 +23,6 @@ TARGET_KERNEL_CONFIG := aosp_yukon_wukong_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2533,wukong,tianchi
 
-<<<<<<< HEAD
 # TWRP Recovery
 DEVICE_RESOLUTION := 720x1280
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
@@ -38,7 +37,6 @@ PRODUCT_COPY_FILES += \
 =======
 # Recovery
 TARGET_RECOVERY_FSTAB := device/sony/wukong/rootdir/fstab.yukon
->>>>>>> 7a3db46e5b68c3a3a49812ade912b55df31012a0
 
 # Inherit from wukong device
 $(call inherit-product, device/sony/wukong/aosp_d2533.mk)
