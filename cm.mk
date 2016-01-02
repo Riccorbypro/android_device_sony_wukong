@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm
-TARGET_KERNEL_CONFIG := aosp_yukon_wukong_defconfig
+TARGET_KERNEL_CONFIG := cm_wukong_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2533,wukong,tianchi

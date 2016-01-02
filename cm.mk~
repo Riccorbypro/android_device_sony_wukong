@@ -29,8 +29,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/sony/wukong_dsds/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
-    device/sony/wukong_dsds/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+    device/sony/wukong/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
+    device/sony/wukong/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Recovery
 #TARGET_RECOVERY_FSTAB := device/sony/wukong/rootdir/fstab.yukon
