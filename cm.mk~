@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 #TARGET_RECOVERY_FSTAB := device/sony/wukong/rootdir/fstab.yukon
-=======
 # Recovery
 TARGET_RECOVERY_FSTAB := device/sony/wukong/rootdir/fstab.yukon
 
